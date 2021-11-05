@@ -1,4 +1,10 @@
+
+
 ## FindBibleVerse - Find Bible Verse simply and easily
+
+## NOTICE
+> This package is still in development.
+
 
 This is a plugin to build to query on bible DB easily.
 
