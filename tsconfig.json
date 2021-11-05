@@ -5,7 +5,8 @@
     "sourceMap": true,
     "outDir": "build",
     "allowSyntheticDefaultImports": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "declaration": true
   },
   "exclude": [
     "node_modules",
