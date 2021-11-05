@@ -5,6 +5,7 @@
   "main": "build/FindBibleVerse.js",
   "scripts": {
     "test": "jest",
+    "preinstall": "git submodule update -i -r",
     "build": "tsc"
   },
   "keywords": [],
