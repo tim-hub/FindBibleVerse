@@ -10,7 +10,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "GPLv3",
   "devDependencies": {
     "@types/better-sqlite3": "^7.4.1",
     "@types/jest": "^27.0.2",
