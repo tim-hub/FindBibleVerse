@@ -1,0 +1,53 @@
+{
+  "name": "find-bible-verse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/FindBibleVerse.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.4.1",
+    "@types/jest": "^27.0.2",
+    "jest": "^27.3.1",
+    "ts-jest": "^27.0.7",
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "better-sqlite3": "7.4.4"
+  },
+  "jest": {
+    "transform": {
+      ".(ts|tsx)": "ts-jest"
+    },
+    "testEnvironment": "node",
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "coveragePathIgnorePatterns": [
+      "/node_modules/",
+      "/test/"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 60,
+        "functions": 80,
+        "lines": 80,
+        "statements": 80
+      }
+    },
+    "coverageDirectory": "./coverage/",
+    "collectCoverage": true,
+    "modulePathIgnorePatterns": [
+      "<rootDir>/dist/",
+      "<rootDir>/docs/"
+    ]
+  }
+}

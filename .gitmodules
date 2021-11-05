@@ -1,0 +1,6 @@
+[submodule "bible_databases"]
+	path = bible_databases
+	url = git@github.com:tim-hub/bible_databases.git
+[submodule "src/bible_databases"]
+	path = src/bible_databases
+	url = git@github.com:tim-hub/bible_databases.git

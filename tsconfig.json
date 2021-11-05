@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "build",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true
+  },
+  "exclude": [
+    "node_modules",
+    "*/**.spec.ts"
+  ],
+  "include": [
+    "src/**/*",
+    "src/bible_databases/*"
+  ]
+}
