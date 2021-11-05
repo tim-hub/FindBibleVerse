@@ -1,12 +1,13 @@
 {
   "name": "find-bible-verse",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "",
-  "main": "build/main.js",
+  "main": "dist/main.js",
   "scripts": {
     "test": "jest",
     "preinstall": "git submodule update -i -r",
-    "build": "tsc"
+    "build": "tsc && npm run copy-files",
+    "copy-files": "mkdir -p dist/bible_databases && cp src/bible_databases/bible-sqlite.db dist/bible_databases/bible-sqlite.db"
   },
   "keywords": [],
   "author": "",
