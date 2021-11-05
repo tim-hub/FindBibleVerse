@@ -2,7 +2,7 @@
   "name": "find-bible-verse",
   "version": "0.0.9",
   "description": "",
-  "main": "build/FindBibleVerse.js",
+  "main": "build/main.js",
   "scripts": {
     "test": "jest",
     "preinstall": "git submodule update -i -r",
@@ -47,7 +47,7 @@
     "coverageDirectory": "./coverage/",
     "collectCoverage": true,
     "modulePathIgnorePatterns": [
-      "<rootDir>/dist/",
+      "<rootDir>/build/",
       "<rootDir>/docs/"
     ]
   }
